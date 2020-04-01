@@ -64,7 +64,7 @@ android {
 
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.advantech.barcodedemo"
+        applicationId "com.advantech.em2096barcodedemo"
         minSdkVersion 23
         targetSdkVersion 28
         versionCode increasedVersionCode()
@@ -75,7 +75,7 @@ android {
     applicationVariants.all { variant ->
         if ("release" == variant.buildType.name) {
             variant.outputs.all {
-                outputFileName = "BarCodeDemo_v${defaultConfig.versionName}.apk"
+                outputFileName = "NLS-EM2096_BarCodeDemo_v${defaultConfig.versionName}.apk"
             }
         }
     }

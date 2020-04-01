@@ -1,4 +1,4 @@
-package com.advantech.barcodedemo;
+package com.advantech.em2096barcodedemo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.advantech.barcodedemo", appContext.getPackageName());
+        assertEquals("com.advantech.em2096barcodedemo", appContext.getPackageName());
     }
 }

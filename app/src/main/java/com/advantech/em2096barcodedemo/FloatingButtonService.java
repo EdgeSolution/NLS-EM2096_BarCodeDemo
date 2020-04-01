@@ -1,4 +1,4 @@
-package com.advantech.barcodedemo;
+package com.advantech.em2096barcodedemo;
 
 import android.app.Service;
 import android.content.Intent;
