@@ -75,7 +75,7 @@ android {
     applicationVariants.all { variant ->
         if ("release" == variant.buildType.name) {
             variant.outputs.all {
-                outputFileName = "NLS-EM2096_BarCodeDemo_v${defaultConfig.versionName}.apk"
+                outputFileName = "EM2096BarCodeDemo_v${defaultConfig.versionName}.apk"
             }
         }
     }
