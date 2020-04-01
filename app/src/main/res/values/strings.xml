@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BarCodeDemo</string>
+    <string name="app_name">EM2096BarCodeDemo</string>
     <string name="showfltbtn">Show Float Button</string>
     <string name="hidefltbtn">Hide Float Button</string>
 
