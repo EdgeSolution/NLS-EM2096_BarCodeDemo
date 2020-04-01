@@ -32,15 +32,6 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         textView = findViewById(R.id.textview);
 
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            if (!Settings.canDrawOverlays(MainActivity.this)) {
-                Intent intent = new Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION);
-                intent.setData(Uri.parse("package:" + getPackageName()));
-                startActivityForResult(intent, 100);
-            }
-        }
-
-
         IntentFilter filter = new IntentFilter();
         filter.addAction(ACTION_TRANSFER_DATA);
         barCodeDataBroadcastReceiver = new BarCodeDataBroadcastReceiver();
