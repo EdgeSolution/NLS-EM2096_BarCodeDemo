@@ -15,7 +15,7 @@ import android.widget.ImageButton;
 import android.widget.LinearLayout;
 
 public class FloatingButtonService extends Service {
-    private static final String ACTION_TRIGGER_SCAN = "com.adv.em2096barcode.TRIGGER_SCAN";
+    private static final String ACTION_TRIGGER_SCAN = "com.advantech.em2096barcode.TRIGGER_SCAN";
     private LinearLayout mFloatLayout;
     private WindowManager.LayoutParams wmParams;
     private WindowManager mWindowManager;
