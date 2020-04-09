@@ -17,11 +17,11 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends Activity {
-    private static final String TAG = "BarCodeTest";
+    private static final String TAG = "Em2096BarCodeDemo";
     private static final String SERVICE_PACKAGE_NAME = "com.advantech.em2096barcode";
     private static final String SERVICE_CLASS_NAME = "com.advantech.em2096barcode.RunEm2096BarcodeService";
-    private static final String ACTION_START_SERVICE = "com.adv.em2096barcode.START_SERVICE";
-    private static final String ACTION_TRANSFER_DATA = "com.adv.em2096barcode.TRANSFER_DATA";
+    private static final String ACTION_START_SERVICE = "com.advantech.em2096barcode.START_SERVICE";
+    private static final String ACTION_TRANSFER_DATA = "com.advantech.em2096barcode.TRANSFER_DATA";
 
     private TextView textView;
     BarCodeDataBroadcastReceiver barCodeDataBroadcastReceiver;
